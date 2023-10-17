@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>spookify | Zedrick Ragas</title>
+</head>
+
+<body>
+    <header class="header container">
+        <nav class="nav">
+            <div class="logo"><p><span>spook</span>ify.</p></div>
+            <div class="icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="list">
+            <ul>
+                <li><a href="#stories">Stories</a></li>
+                <li><a href="#authors">Authors</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="heroContent">
+                <div class="heroText">
+                <h1><span>Undead</span> Tales</h1>
+                <h2>Scare yourself, scare your friends, for all we care.</h2>
+                <a href="#stories" class="ready">Get Started</a>
+                </div>
+                <figure>
+                    <img src="images/landing-image.png" alt="Pumpkin Image">
+                </figure>
+            </div>
+        </section>
+        <section id="stories" class="stories">
+            <h1>Top <span>Stories</span></h1>
+            <div class="storiesContent">
+                <div class="paramdam">
+                    <figure>
+                        <img src="images/paramdam.png" alt="Top Story - Paramdam">
+                    </figure>
+                    <div class="text">
+                    <h3>Paramdam</h3>
+                    <p>Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
+                        pinto nun, pag bukas ng pinto nakita nya daw si papa naka upo dun sa pwesto nys ng pinag
+                        iinuman. Iyak ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag tinda dahil sa
+                        takot.
+                        Kinabukasan, dun na rin ako natulog samin pero sumama pa rin pinsan ko dahil sa takot. </p>
+                    <a href="#" class="read">Read more...</a>
+                    </div>
+                </div>
+                <div class="senyales">
+                    <div class="text">
+                    <h3>Senyales</h3>
+                    <p>Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
+                        tinatrabahoan namin at may patay isa nabaril raw. May damage rin ang store na pinagtrabahoan
+                        namin.
+                        Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng mag inang yun, siguro ako yung
+                        nabiktima nung gabing yun, laking pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin
+                        pero hindi ko mahanap.</p>
+                    <a href="#" class="read">Read more...</a>
+                    </div>
+                    <figure>
+                        <img src="./images/senyales.png" alt="Top Story - Senyales">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="authors" id="authors">
+            <h1>Top <span>Authors</span></h1>
+            <div class="authorsContent">
+                <div class="authorList">
+                    <figure>
+                        <img src="images/author-cris.png" alt="Top Author #1">
+                        <h3><span>Cris</span> James</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis sodales
+                            aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
+                    </figure>
+                </div>
+                <div class="authorList">
+                    <figure>
+                        <img src="images/author-katie.png" alt="Top Author #2">
+                        <h3><span>Katie</span> Kim</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis
+                                sodales
+                                aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
+                    </figure>
+                </div>
+                <div class="authorList">
+                    <figure>
+                        <img src="images/author-scarlette.png" alt="Top Author #3">
+                        <h3><span>Scarlette</span> Dickinson</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis sodales
+                            aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <div class="contact">
+                <div class="email">
+                <h1>Dare to <span>Spook</span>ify?</h1>
+                <div>
+                <input type="text" placeholder="Email Address">
+                <button type="submit">Spook Us</button>
+                </div>
+                </div>
+                <p>©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
+            </div>
+        </footer>
+    </main>
+    <script>
+        icon = document.querySelector(".icon");
+        icon.onclick = function() {
+            navBar = document.querySelector(".list");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
