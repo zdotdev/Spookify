@@ -56,9 +56,6 @@ ol[class] {
   list-style: none;
 }
 
-.flow-content > * + * {
-  margin-top: var(--flow-spacer, var(--spacer));
-}
 /* Start Here */
 
 body {
