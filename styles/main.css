@@ -429,6 +429,9 @@ span {
 }
 
 @media only screen and (max-width: 900px) {
+  .heroContent h2{
+    text-align: center;
+  }
   .icon{
     display: block;
     justify-content: right;
@@ -470,7 +473,7 @@ span {
     height: calc(90rem + 8rem);
   }
 
-  .heroContent img {
+  .heroFigure img {
     display: none;
   }
   
@@ -535,9 +538,6 @@ span {
   .heroContent h1 {
     font-size: calc(64px - 24px);
   }
-}
-
-@media only screen and (max-width: 500px) {
   /*stories*/
   .senyales,
   .paramdam {
